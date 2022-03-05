@@ -1,0 +1,101 @@
+<!doctype html>
+
+<?php
+session_start();
+?>
+
+<?php
+if(!isset($_SESSION["username"]))
+   {
+   echo "Bitte erst <a href=\"02_login.html\">einloggen</a>";
+   exit;
+   }
+?>
+
+<html lang="de">
+<head>
+<title>Nero de Leon Developer</title>
+<meta charset="UTF-8">
+<meta name="description" content="Some Grafics and Designs created with GIMP and HTML5">
+<meta name="author" content="afbg">
+<meta name="keywords" content="Grafics, Grafik, HTML5, html5">
+<link rel="stylesheet" href="data/a_style.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="data/l_style.css" type="text/css" media="screen" />
+<script src="data/myjsfun.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="baseSkin">
+<header>
+  <p class="logotxt"><strong>&lt;Nero de Leon&gt;</strong></p>
+  <p class="logotxt"><strong>&lt;Developement Site&gt;</strong></p>
+  <div id="dtxt"></div>
+</header>
+
+<nav id="navioben">
+  <ul>
+    <li><a class="b01" href="01_intro.html">Home</a></li>
+    <li><a class="b01" href="03_site.html">Kontakt</a></li>
+  </ul>
+</nav>
+<aside>
+<p><b>Wallpapers</b></p>
+       <!-- <a href="data/wallpaper_02.jpg"><img src="data/wallpaper_02.jpg" width="160" height="120"
+        alt="Wallpaper 02" /></a>
+        <a href="data/wallpaper_03.jpg"><img src="data/wallpaper_03.jpg" width="160" height="120"
+        alt="Wallpaper 03" /></a>
+        <a href="data/wallpaper_04.jpg"><img src="data/wallpaper_04.jpg" width="160" height="120"
+        alt="Wallpaper 04" /></a>
+        <a href="data/wallpaper_05.jpg"><img src="data/wallpaper_05.jpg" width="160" height="100"
+        alt="Wallpaper 05" /></a> -->
+</aside>
+<nav id="navilinks">
+  <ul>
+         <li><a href="01_intro.html">Home</a></li>
+         <li><a href="02_site.html">HTML/CSS</a></li>
+         <li><a href="04_site.html">Flash</a></li>
+         <li><a href="05_site.html">Google Maps API</a></li>
+         <li><a href="06_site.html">CSS3 Animation</a></li>
+         <li><a href="03_site.html">Kontakt</a></li>
+  </ul>
+</nav>
+
+<section>
+  <h1>Willkommen</h1>
+  <p>Das hier ist meine kleine Spielwiese zur Entwicklung von Websites auf Basis der Programmiersprachen:</p>
+        <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+        </ul>
+        <p>Sollte sich jemand mit zuviel Geld hierher verirren,  darf er durchaus den Donate Button verwenden ;-)</p>
+        <p>Dankesch&ouml;n</p>
+        <p>Nero</p>
+</section>
+
+<footer>
+  <!--<p><a class="b01" href="http://afbg.name/flash">&copy; AFBG Grafics and Design (Flash Version)</a></p> -->
+</footer>
+
+<div class="pixis">
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="TWPTYZ39YAU4Y">
+        <input class="ppp" type="image" src="data/donate.jpg" name="submit" alt="Jetzt einfach, schnell und sicher online bezahlen – mit PayPal.">
+        <img alt="" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+<a href="http://www.w3.org/">
+    <img style="border:0;width:78px;height:51px"
+        src="data/html5_css3_white.png"
+        alt="programming the future!" />
+</a><br>
+<a href="http://jigsaw.w3.org/css-validator/">
+    <img style="border:0;width:83px;height:28px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="CSS ist valide!" />
+</a>
+</div>
+</div>
+
+</body>
+</html>
