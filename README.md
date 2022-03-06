@@ -1,3 +1,4 @@
 # Hello GitHub Comunity
 
-I'm still figuring this out
+Wellcome to my profile, im old but still
+learnig this programming skills
