@@ -132,8 +132,8 @@ tbody {
         width: 1150px;
         height: inherit;
     /*border: 2px solid silver;*/
-    margin: 0 auto;
-    margin-top: 20px;
+        margin: 0 auto;
+        margin-top: 20px;
         margin-bottom: 50px;
         padding: 0px 20px 20px 20px;
         /*background-image: url(base_trans.png);*/
